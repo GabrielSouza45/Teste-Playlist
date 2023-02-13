@@ -1,0 +1,69 @@
+.buttonCadastrar{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    transition: .4s;
+    border: 1px solid #18b600;
+    margin-top: 50px;
+}
+
+.buttonCadastrar:hover{
+    background: #1ccb019b;
+    color: #5d5d5d;
+    border: 1px solid #18b600;
+    cursor: pointer;
+}
+
+.buttonEditar{
+    margin-top: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    transition: .4s;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    box-shadow: 0 2px 3px #0000005e;
+}
+
+.buttonEditar:hover{
+    cursor: pointer;
+}
+
+.buttons{
+   display: grid;
+   grid-template-columns: repeat(3, 50px);
+   gap: 10px;
+  
+}
+
+#alt{
+    border: 1px solid #b3aa02;
+}
+
+#alt:hover{
+    background-color: #dcd10aa2;
+    color: #000000;
+}
+
+#rmv{
+    border: 1px solid #a20000;
+}
+
+#rmv:hover{
+    background-color: #f13b3bc3;
+    color: #393939;
+}
+
+#esc{
+    border: 1px solid #0731af;
+}
+
+#esc:hover{
+    background-color: #3b62f159;
+    color: #393939;
+}

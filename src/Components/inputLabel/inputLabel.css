@@ -1,0 +1,20 @@
+.labels{
+    margin: 10px;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #1cec00; */
+}
+
+label{
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+input{
+    text-align: center;
+}
